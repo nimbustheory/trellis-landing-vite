@@ -276,7 +276,7 @@ export default function App() {
       </section>
 
       {/* PARALLAX: WINE BARRELS */}
-      <div className="parallax-divider" role="presentation" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1516594915307-8f71d2948061?w=1920&q=80')" }} />
+      <div className="parallax-divider" role="presentation" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?w=1920&q=80')" }} />
 
       {/* HOW IT WORKS */}
       <section className="how" id="how">
@@ -305,7 +305,7 @@ export default function App() {
       </section>
 
       {/* PARALLAX: GRAPEVINES */}
-      <div className="parallax-divider parallax-short" role="presentation" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1596142813960-1a42e7573943?w=1920&q=80')" }} />
+      <div className="parallax-divider parallax-short" role="presentation" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=1920&q=80')" }} />
 
       {/* PRICING */}
       <section className="problem" id="pricing" style={{ background: 'var(--cream)' }}>
