@@ -31,7 +31,7 @@ export default function App() {
     <>
       {/* NAV */}
       <nav className={scrolled ? 'scrolled' : ''} role="navigation" aria-label="Main navigation">
-        <a href="#" className="nav-logo">trellis<span>.</span></a>
+        <a href="#" className="nav-logo"><img src="/TRELLIS LOGO.png" alt="Trellis" /></a>
         <button
           className={`nav-toggle${menuOpen ? ' open' : ''}`}
           onClick={() => setMenuOpen(prev => !prev)}
@@ -353,7 +353,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer>
-        <div className="footer-brand">trellis<span style={{ color: 'var(--vine)' }}>.</span></div>
+        <div className="footer-brand"><img src="/TRELLIS LOGO.png" alt="Trellis" /></div>
         <div className="footer-links">
           <a href="#features">Features</a>
           <a href="#how">How It Works</a>

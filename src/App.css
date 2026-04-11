@@ -44,14 +44,14 @@ nav.scrolled {
   box-shadow: 0 1px 0 rgba(0,0,0,0.06);
 }
 .nav-logo {
-  font-family: 'Fraunces', serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--wine);
-  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
-.nav-logo span { color: var(--vine); }
+.nav-logo img {
+  height: 32px;
+  width: auto;
+}
 .nav-links { display: flex; gap: 36px; align-items: center; }
 .nav-links a {
   font-size: 14px;
@@ -643,10 +643,12 @@ footer {
   align-items: center;
 }
 .footer-brand {
-  font-family: 'Fraunces', serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--wine);
+  display: flex;
+  align-items: center;
+}
+.footer-brand img {
+  height: 28px;
+  width: auto;
 }
 .footer-links { display: flex; gap: 28px; }
 .footer-links a { font-size: 13px; color: var(--text-light); text-decoration: none; transition: color 0.3s; }
